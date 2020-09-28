@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="Css/general.css">
+</head>
+<body>
+  <div style="margin:0 auto; width:80%">
+    <h1 id="company-name">Stationary Shop</h1>
+    <h2>Contact Us</h2>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="customer.html">Customers</a>
+    <a href="contact_us.html">Contact Us</a>
+    <hr>
+    <img src="images/name.png">
+    <br>
+    <label for="name">Your name</label>
+    <input type="text" placeholder="Name" name="name">
+    <br>
+    <label for="date">date of birth</label>
+    <input type="date" name="birthday">
+    <br>
+    <label for="number">phone number</label>
+    <input type="number" name="number">
+    <br>
+    <label for="email">email</label>
+    <input type="email" name="email">
+    <hr>
+    <img src="images/msg.png">
+    <br>
+    <textarea name="message" id="message" placeholder="Message is Max 1000 letters"></textarea>
+    <hr>
+    <img src="images/other.png">
+    <br>
+    Prefeered stationary:
+    <br>
+    <select name="purpose" id="purpose" multiple>
+      <option value="drawing">drawing</option>
+      <option value="writing">writing</option>
+      <option value="studying">studying</option>
+     </select> 
+      <hr>
+<label for="attachment">attachment</label>
+<input type="file" if="attachment" name="contact_us_attachment">
+<br>
+<br>
+<br>
+<button type="submit" value="submit" id="button">Submit</button>
+  </div>
+</body>
+</html>

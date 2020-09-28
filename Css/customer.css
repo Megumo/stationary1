@@ -1,0 +1,22 @@
+.customer{
+  background-color: lightgray;
+  margin:10px;
+  border: 3px lavender solid;
+  padding:10px;
+  display:inline-block;
+  width:250px;
+  text-align: center;
+}
+
+.customer imag{
+  height:70px;
+}
+
+#uni{
+  float:left;
+}
+
+#sakura{
+  float:left;
+  clear:both;
+}
